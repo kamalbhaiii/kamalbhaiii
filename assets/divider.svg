@@ -1,0 +1,21 @@
+<svg width="800" height="34" viewBox="0 0 800 34" xmlns="http://www.w3.org/2000/svg">
+<title>section divider</title>
+<defs>
+  <linearGradient id="dLine" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#ff2fb0" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#c084fc" stop-opacity="0.65"/>
+    <stop offset="100%" stop-color="#9b30ff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="16" width="335" height="1.5" fill="url(#dLine)"/>
+<rect x="465" y="16" width="335" height="1.5" fill="url(#dLine)"/>
+<g transform="translate(400,17)">
+  <g fill="#ff6ec7" opacity="0.85" transform="translate(-10,-14) scale(0.7)">
+    <ellipse cx="20" cy="25" rx="10" ry="8.5"/>
+    <ellipse cx="8" cy="12" rx="4.2" ry="5.4" transform="rotate(-18 8 12)"/>
+    <ellipse cx="18" cy="6.5" rx="4.4" ry="5.6"/>
+    <ellipse cx="28.5" cy="9" rx="4.2" ry="5.4" transform="rotate(14 28.5 9)"/>
+    <ellipse cx="34.5" cy="18" rx="3.8" ry="4.8" transform="rotate(32 34.5 18)"/>
+  </g>
+</g>
+</svg>

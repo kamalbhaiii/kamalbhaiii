@@ -1,0 +1,87 @@
+<svg width="380" height="260" viewBox="0 0 380 260" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI','Consolas',monospace">
+<title>Kamal Sharma - Top Languages</title>
+
+<defs>
+  <linearGradient id="lBg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#1a0b2e"/>
+    <stop offset="100%" stop-color="#2d0f3f"/>
+  </linearGradient>
+  <clipPath id="lClip"><rect x="0" y="0" width="380" height="260" rx="16"/></clipPath>
+
+  <!-- reusable paw-print motif (decorative accent) -->
+  <symbol id="pawPrint" viewBox="0 0 40 40">
+    <ellipse cx="20" cy="25" rx="10" ry="8.5"/>
+    <ellipse cx="8" cy="12" rx="4.2" ry="5.4" transform="rotate(-18 8 12)"/>
+    <ellipse cx="18" cy="6.5" rx="4.4" ry="5.6"/>
+    <ellipse cx="28.5" cy="9" rx="4.2" ry="5.4" transform="rotate(14 28.5 9)"/>
+    <ellipse cx="34.5" cy="18" rx="3.8" ry="4.8" transform="rotate(32 34.5 18)"/>
+  </symbol>
+</defs>
+
+<g clip-path="url(#lClip)">
+<rect width="380" height="260" fill="url(#lBg)"/>
+<circle cx="360" cy="10" r="70" fill="#9b30ff" opacity="0.12"/>
+<use href="#pawPrint" x="350" y="232" width="22" height="22" fill="#c084fc" opacity="0.2" transform="rotate(-14 361 243)"/>
+
+<text x="24" y="34" font-size="16" font-weight="700" fill="#ffe6f7">Most Used Languages</text>
+
+<g font-size="12" font-family="'Consolas',monospace">
+  <!-- Python -->
+  <g transform="translate(24,56)">
+    <text fill="#ffd9f2">Python</text>
+    <text x="332" text-anchor="end" fill="#c9a9e8">38%</text>
+    <rect y="8" width="332" height="9" rx="4.5" fill="#3a1f4d"/>
+    <rect y="8" width="0" height="9" rx="4.5" fill="#3572A5">
+      <animate attributeName="width" values="0;126" dur="1s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+    </rect>
+  </g>
+  <!-- TypeScript -->
+  <g transform="translate(24,92)">
+    <text fill="#ffd9f2">TypeScript</text>
+    <text x="332" text-anchor="end" fill="#c9a9e8">22%</text>
+    <rect y="8" width="332" height="9" rx="4.5" fill="#3a1f4d"/>
+    <rect y="8" width="0" height="9" rx="4.5" fill="#3178c6">
+      <animate attributeName="width" values="0;73" dur="1s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+    </rect>
+  </g>
+  <!-- Go -->
+  <g transform="translate(24,128)">
+    <text fill="#ffd9f2">Go</text>
+    <text x="332" text-anchor="end" fill="#c9a9e8">14%</text>
+    <rect y="8" width="332" height="9" rx="4.5" fill="#3a1f4d"/>
+    <rect y="8" width="0" height="9" rx="4.5" fill="#00ADD8">
+      <animate attributeName="width" values="0;47" dur="1s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+    </rect>
+  </g>
+  <!-- Shell -->
+  <g transform="translate(24,164)">
+    <text fill="#ffd9f2">Shell</text>
+    <text x="332" text-anchor="end" fill="#c9a9e8">12%</text>
+    <rect y="8" width="332" height="9" rx="4.5" fill="#3a1f4d"/>
+    <rect y="8" width="0" height="9" rx="4.5" fill="#89e051">
+      <animate attributeName="width" values="0;40" dur="1s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+    </rect>
+  </g>
+  <!-- HCL/Terraform -->
+  <g transform="translate(24,200)">
+    <text fill="#ffd9f2">HCL (Terraform)</text>
+    <text x="332" text-anchor="end" fill="#c9a9e8">9%</text>
+    <rect y="8" width="332" height="9" rx="4.5" fill="#3a1f4d"/>
+    <rect y="8" width="0" height="9" rx="4.5" fill="#844FBA">
+      <animate attributeName="width" values="0;30" dur="1s" begin="1s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+    </rect>
+  </g>
+  <!-- Dockerfile -->
+  <g transform="translate(24,236)">
+    <text fill="#ffd9f2">Dockerfile</text>
+    <text x="332" text-anchor="end" fill="#c9a9e8">5%</text>
+    <rect y="8" width="332" height="9" rx="4.5" fill="#3a1f4d"/>
+    <rect y="8" width="0" height="9" rx="4.5" fill="#384d54">
+      <animate attributeName="width" values="0;17" dur="1s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" keyTimes="0;1"/>
+    </rect>
+  </g>
+</g>
+
+<rect x="1" y="1" width="378" height="258" rx="15" fill="none" stroke="#c084fc" stroke-opacity="0.35" stroke-width="1.5"/>
+</g>
+</svg>
